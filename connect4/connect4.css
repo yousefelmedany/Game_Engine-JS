@@ -1,0 +1,86 @@
+* {
+  font-family: "Signika Negative", sans-serif;
+}
+body h1 {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  color: azure;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-template-rows: repeat(7, 100px);
+  background-color: black;
+  margin: 0 auto;
+  justify-content: center;
+  width: 760px;
+  height: 720px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.grid div:hover {
+  background-color: rgb(192, 192, 255);
+}
+
+.grid-item {
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: azure;
+}
+
+.input {
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  margin-right: 20px;
+  border-radius: 15px;
+  border: 3px solid black;
+  border-color: black;
+  margin-right: 10px;
+}
+
+.box {
+  height: 50px;
+  font-size: larger;
+}
+
+.grid label {
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  color: violet;
+  font-weight: bolder;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+.options1 {
+  margin-top: 20px;
+}
+#back-btn {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.options1 label {
+  font-size: 30px;
+  color: azure;
+}
+#start-btn {
+  font-size: 30px;
+}
+.options2 {
+  margin-top: 20px;
+}
+
+.options1 button{
+  width: 180px;
+  height:60px;
+  border-radius: 10px;
+  font-size: 20px;
+  
+}
+
+

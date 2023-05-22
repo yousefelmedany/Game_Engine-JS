@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <title>8 Queens</title>
+    <style>
+      body {
+        align-items: center;
+        justify-content: center;
+        background-image: url("../assets/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: "Signika Negative", sans-serif;
+      }
+    </style>
+    <title>8 Queens</title>
+
+    <link rel="stylesheet" href="8queens.css" />
+  </head>
+  <body>
+    <div class="back">
+      <a href="../home.html"
+        ><button class="btn btn-dark" id="back-btn">
+          <i class="fa-solid fa-arrow-left"></i> Back to Home
+        </button></a
+      >
+    </div>
+    <div class="head-title">
+      <h1>
+    8 Queens
+    </h1>
+    </div>
+    <div class="grid">
+      <label></label>
+      <label>0</label>
+      <label>1</label>
+      <label>2</label>
+      <label>3</label>
+      <label>4</label>
+      <label>5</label>
+      <label>6</label>
+      <label>7</label>
+      <label>0</label>
+      <div class="cell1" id="0"></div>
+      <div class="cell2" id="1"></div>
+      <div class="cell1" id="2"></div>
+      <div class="cell2" id="3"></div>
+      <div class="cell1" id="4"></div>
+      <div class="cell2" id="5"></div>
+      <div class="cell1" id="6"></div>
+      <div class="cell2" id="7"></div>
+      <label>1</label>
+      <div class="cell2" id="8"></div>
+      <div class="cell1" id="9"></div>
+      <div class="cell2" id="10"></div>
+      <div class="cell1" id="11"></div>
+      <div class="cell2" id="12"></div>
+      <div class="cell1" id="13"></div>
+      <div class="cell2" id="14"></div>
+      <div class="cell1" id="15"></div>
+      <label>2</label>
+      <div class="cell1" id="16"></div>
+      <div class="cell2" id="17"></div>
+      <div class="cell1" id="18"></div>
+      <div class="cell2" id="19"></div>
+      <div class="cell1" id="20"></div>
+      <div class="cell2" id="21"></div>
+      <div class="cell1" id="22"></div>
+      <div class="cell2" id="23"></div>
+      <label>3</label>
+      <div class="cell2" id="24"></div>
+      <div class="cell1" id="25"></div>
+      <div class="cell2" id="26"></div>
+      <div class="cell1" id="27"></div>
+      <div class="cell2" id="28"></div>
+      <div class="cell1" id="29"></div>
+      <div class="cell2" id="30"></div>
+      <div class="cell1" id="31"></div>
+      <label>4</label>
+      <div class="cell1" id="32"></div>
+      <div class="cell2" id="33"></div>
+      <div class="cell1" id="34"></div>
+      <div class="cell2" id="35"></div>
+      <div class="cell1" id="36"></div>
+      <div class="cell2" id="37"></div>
+      <div class="cell1" id="38"></div>
+      <div class="cell2" id="39"></div>
+      <label>5</label>
+      <div class="cell2" id="40"></div>
+      <div class="cell1" id="41"></div>
+      <div class="cell2" id="42"></div>
+      <div class="cell1" id="43"></div>
+      <div class="cell2" id="44"></div>
+      <div class="cell1" id="45"></div>
+      <div class="cell2" id="46"></div>
+      <div class="cell1" id="47"></div>
+      <label>6</label>
+      <div class="cell1" id="48"></div>
+      <div class="cell2" id="49"></div>
+      <div class="cell1" id="50"></div>
+      <div class="cell2" id="51"></div>
+      <div class="cell1" id="52"></div>
+      <div class="cell2" id="53"></div>
+      <div class="cell1" id="54"></div>
+      <div class="cell2" id="55"></div>
+      <label>7</label>
+      <div class="cell2" id="56"></div>
+      <div class="cell1" id="57"></div>
+      <div class="cell2" id="58"></div>
+      <div class="cell1" id="59"></div>
+      <div class="cell2" id="60"></div>
+      <div class="cell1" id="61"></div>
+      <div class="cell2" id="62"></div>
+      <div class="cell1" id="63"></div>
+     
+    </div>
+    <div class="options1 text-center" id="box2">
+        <button class="box btn btn-dark" onclick="RestartGame('8queens')">
+          Restart Game <i class="fa-solid fa-rotate-right"></i>
+        </button>
+    </div>
+      <script src="../home.js"></script>
+      <script type="module" src="../GameFactory.js"></script>
+    </body>
+</html>

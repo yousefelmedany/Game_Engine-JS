@@ -1,0 +1,46 @@
+* {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 24px;
+}
+h1 {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 20px;
+  color: azure;
+  margin-bottom: 20px;
+}
+h3 {
+  color: azure;
+}
+.fa-gamepad {
+  font-size: 80px;
+}
+a {
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+ 
+}
+li{
+  height: 50px;
+}
+li:hover{
+  transform: scale(1.1);
+}
+.container li {
+  margin: 10px;
+  width: 40%;
+  height: 80px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+ul {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
